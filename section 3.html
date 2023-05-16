@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Chapitre 3: Le modèle OSI
+    </title>
+	<link rel="stylesheet" type="text/css" href="style31.css">
+</head>
+
+<body>
+	<header>
+		<h1>Chapitre 3: Le modèle OSI
+        </h1>
+        <p>cette section a été faite par RAHIM </p>
+        <img href="usthb.png" src="logo usthb"> 
+	</header>
+	<main>
+		<section>
+            <h2>Les Composants matériel d’un Réseau informatique:</h2>
+			<ul>
+				<li>les cartes réseau: également appelées cartes d'interface réseau, qui sont des composants matériels permettant à un ordinateur de se connecter à un réseau tel qu'Internet ou un réseau local.</li>
+                <p>Les cartes réseau jouent un rôle essentiel dans la communication entre ordinateurs sur un réseau en permettant à l'ordinateur de transmettre et de recevoir des données via des protocoles de communication spécifiques.
+                    également deux types de composants matériels utilisés pour connecter des appareils sur un réseau local : les switches et les hubs.</p>
+                <li>Les switches: permettent à plusieurs appareils de communiquer entre eux en utilisant des adresses MAC et utilisent une table de correspondance pour envoyer les données uniquement à l'appareil destinataire.</li>
+                <li>Les hubs: fonctionnent comme des répéteurs, en recevant les données envoyées par un appareil et les transmettant à tous les autres appareils connectés, mais ne possèdent pas la fonctionnalité de table de correspondance.</li>
+                <p>Les switches sont plus efficaces pour la gestion du trafic réseau et permettent une communication plus rapide et plus sécurisée entre les appareils connectés, tandis que les hubs sont encore utilisés dans des applications spécifiques ou dans des réseaux de petite taille où la complexité d'un switch n'est pas nécessaire.</p>
+			</ul>
+		</section>
+		<section>
+			<h2> 2/ Le Modèle OSI:</h2>
+            <p>Le modèle OSI est un modèle de référence pour les communications de réseau qui divise les communications en sept couches distinctes. 
+                Chaque couche est responsable de fonctions spécifiques liées à la communication de données entre les appareils de réseau.
+               Les sept couches du modèle OSI sont:</p>
+			<ol>
+				<li>la couche physique</li>
+                <li>la couche liaison de données</li>
+                <li>la couche réseau</li>
+                <li>la couche transport</li>
+                <li>la couche session</li>
+                <li>la couche présentation</li>
+                <li>la couche application.</li>
+		</section>
+		<section> 
+			<h2>3/ Le Modèle TCP/IP </h2>
+            <p>Ce modèle est souvent utilisé comme référence pour la conception et la mise en œuvre de réseaux informatiques.
+                Bien qu'il ne soit pas utilisé dans les protocoles de communication de réseau modernes tels que TCP/IP, il reste utile pour comprendre les principes fondamentaux de la communication de réseau.
+                Le modèle TCP/IP est un modèle de référence pour les communications de réseau.
+                Il divise les communications en quatre couches principales :</p>
+			<ol>
+                <li>la couche liaison de données </li>
+                <li>la couche réseau</li>
+                <li>la couche transport</li>
+                <li>la couche application</li>
+            </ol>
+            <p> La couche liaison de données s'occupe de la transmission des données sur le support physique, la couche réseau assure le routage des données, la couche transport gère l'acheminement des données de bout en bout, et la couche application permet la communication entre les applications sur les appareils de réseau. 
+                Le modèle TCP/IP est utilisé dans la conception et la mise en œuvre des réseaux informatiques modernes, tels que les réseaux d'entreprise, les réseaux Internet et les réseaux sans fil. 
+                Il est basé sur les protocoles TCP, UDP et IP, et est largement utilisé dans les communications Internet.</p>
+		</section>
+        <section>
+            <h2>4/ L’adressage:</h2>
+              <p>  Un adressage IP est un système utilisé pour identifier et localiser des dispositifs connectés à un réseau informatique, tels que des ordinateurs, des serveurs, des imprimantes et des appareils mobiles.
+                Chaque appareil connecté à un réseau dispose d'une adresse IP unique, qui est une combinaison de chiffres séparés par des points (par exemple, 192.168.0.1). 
+                L'adressage IP permet aux appareils de communiquer entre eux en identifiant de manière unique l'expéditeur et le destinataire des données échangées sur le réseau.
+                C’est quoi un adressage IP :
+                Il existe deux principales versions d'adresses IP : IPv4 (utilisée depuis longtemps) et IPv6 (une version plus récente qui permet plus d'adresses disponibles pour répondre aux besoins croissants d'Internet).</p>
+        </section>
+        <section>
+            <h2>L'adresse IPv4 :</h2>
+            <p>IPv4 (Internet Protocol version 4) est la quatrième version du protocole Internet, qui est largement utilisée depuis son développement au début des années 1980.
+                Les adresses IPv4 sont des nombres binaires de 32 bits, généralement représentés sous une forme décimale pointée composée de quatre ensembles de nombres décimaux séparés par des points (par exemple, 192.168.0.1).</p>
+        </section>
+        <section>
+            <h2>Voici quelques points clés concernant IPv4 :</h2>
+             <ul>
+                <li>Format d'adresse : Les adresses IPv4 sont composées de deux parties : une partie réseau et une partie hôte. La partie réseau identifie le réseau auquel un appareil appartient, tandis que la partie hôte identifie l'appareil spécifique sur ce réseau.
+                </li>
+                <li>Espace d'adressage : IPv4 offre environ 4,3 milliards (2^32) d'adresses uniques.
+                    Cependant, en raison de la croissance exponentielle d'Internet, les adresses IPv4 sont devenues rares.
+                    </li>
+             </ul>
+        </section>
+         <section>
+            <h2>Classes et sous-réseaux :
+            </h2>
+            <ul>
+                <li>IPv4 définissait à l'origine trois classes d'adresses : la classe A, la classe B et la classe C.
+                    Ces classes avaient différentes plages de bits de réseau et d'hôte, ce qui permettait de créer des réseaux de tailles différentes</li>
+                 <li>Adresses IP privées : IPv4 réserve certaines plages d'adresses pour les réseaux privés, qui ne sont pas routables sur Internet public.</li>
+            </ul>
+         </section>
+         <section>
+            <h2>Traduction d'adresse réseau (NAT) :
+            </h2>
+            <p>Le NAT est une technique utilisée pour surmonter la limitation des adresses IPv4 disponibles.
+                Il permet à plusieurs appareils au sein d'un réseau privé de partager une seule adresse IP publique. Le NAT traduit les adresses IP privées des appareils en adresse IP publique lors des communications avec Internet.</p>
+            <ul>
+                <li>Structure des paquets IPv4 : Les paquets IPv4 sont composés d'un en-tête et d'une charge utile. L'en-tête contient des informations telles que les adresses IP source et destination, la longueur du paquet, le protocole et le temps de vie (TTL).
+                    La charge utile transporte les données réellement transmises.</li>
+            </ul>
+        </section>
+	</main>
+</body>

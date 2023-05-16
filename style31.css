@@ -1,0 +1,92 @@
+/* Styles pour le corps de la page */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    background-color: #314657;
+    
+    }
+    
+    /* Styles pour l'en-tête */
+    header {
+    background-color: #e8ffff;
+    padding: 20px;
+    }
+    
+    h1 {
+    margin: 0;
+    font-size: 32px;
+    font-weight: bold;
+    color: #333;
+    }
+    
+    /* Styles pour les sections */
+    section {
+    margin: 40px 0;
+    
+    }
+    
+    h2 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    }
+    
+    ul {
+    list-style-type: disc;
+    margin: 0;
+    padding: 0 0 0 20px;
+    }
+    
+    li {
+    margin: 10px 0;
+    }
+    
+    p {
+    margin: 10px 0;
+    line-height: 1.5;
+    }
+    
+    em {
+    font-style: italic;
+    }
+    
+    ol {
+    list-style-type: decimal;
+    margin: 0;
+    padding: 0 0 0 20px;
+    }
+    
+    /* Styles pour les liens */
+    a {
+    color: #007bff;
+    text-decoration: none;
+    }
+    
+    a:hover {
+    text-decoration: underline;
+    }
+    
+    /* Styles pour les couleurs bleues */
+    body {
+    background-color: #f2f2ff;
+    }
+    
+     h2 {
+    color: #1d1d1d;
+    }
+    
+    a {
+    color: #007bff;
+    }
+    
+    a:hover {
+    color: #0056b3;
+    }
+    img{ 
+        margin-left: 85%;
+        max-height: fit-content;
+    }
+   
